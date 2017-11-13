@@ -1,0 +1,78 @@
+.section-wrap{
+    background-color: #ffffff;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+.section-tit{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    padding-bottom: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.section-tit>h3{
+    font-size: 16px;
+    color: #323333;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.section-tit>span{
+    font-size: 12px;
+    color: #b3b3b3;
+    line-height: 16px;
+}
+.section-con{
+    font-size: 0;
+}
+.section-con>li{
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.section-con>li>a{
+    display: block;
+}
+.section-con>li>a>img{
+    width: 100%;
+}
+.section-con>li:nth-child(2n-1)>a{
+    padding-right: 5px;
+}
+.section-con>li:nth-child(2n)>a{
+    padding-left: 5px;
+}
+.section-con>li>a>h4{
+    font-size: 14px;
+    color:#323333;
+    padding-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.section-con>li>a>p{
+    font-size: 14px;
+    color:#e83b4f;
+    padding:7px 0 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.no-data{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    color:#323333;
+}
+.swiper-container{
+    max-height: 320px;
+    background-color: #333333;
+}
+
+

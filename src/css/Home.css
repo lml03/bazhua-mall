@@ -1,0 +1,119 @@
+.home-main{
+    padding: 50px 0;
+}
+.shop-cart-show>a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #00aaee url("../images/shopcart2.png") no-repeat center center;
+    position: fixed;
+    z-index: 9999;
+    right: 25px;
+    bottom: 72px;
+    background-size: 60%;
+    display: inline-block;
+}
+.shop-cart-show>a>span{
+    width: 20px;
+    height: 20px;
+    background-color: #e83b4f;
+    color: #ffffff;
+    line-height: 20px;
+    text-align: center;
+    font-size: 10px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    right: -2px;
+    top: -5px;
+}
+
+
+/*搜索*/
+.search-wrap{
+    background-color: #ffffff;
+    padding: 11px 12px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+.search-inner{
+    height: 28px;
+    background-color: #f1f5fa;
+    border-radius: 5px;
+    position: relative;
+}
+.search-icon{
+    width:36px;
+    height: 28px;
+    display: inline-block;
+    background: url("../images/icons.png") no-repeat;
+    background-position: center 5px;
+    background-size: 130%;
+}
+.search-info-wrap{
+    position: absolute;
+    left: 36px;
+    right: 10px;
+    top:0;
+    bottom:0;
+}
+.search-info{
+    background-color: #f1f5fa;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    width: 100%;
+    vertical-align: top;
+}
+::-webkit-input-placeholder{
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+/*类型*/
+.type-wrap{
+    background-color: #ffffff;
+    padding: 10px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    margin-bottom: 10px;
+}
+.type-wrap>li{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    text-align: center;
+}
+.type-wrap>li>i{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url("../images/icons.png") no-repeat;
+    background-size: cover;
+}
+.type-wrap>li>i.cold-chain{
+    background-position: center -42px;
+}
+.type-wrap>li>i.gas{
+    background-position: center -114px;
+}
+.type-wrap>li>i.heat{
+    background-position: center -189px;
+}
+.type-wrap>li>i.emission{
+    background-position: center -260px;
+}
+.type-wrap>li>p{
+    color:#323333;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 5px;
+}
+

@@ -1,0 +1,295 @@
+.product-detail-wrap{
+    padding-bottom: 51px;
+}
+.detail-slider-wrap{
+    font-size: 0;
+}
+.detail-slider-wrap img{
+    width: 100%;
+}
+.detail-info-wrap{
+    background-color: #ffffff;
+    padding: 10px;
+    border-top: 1px solid #f1f5fa;
+    border-bottom: 1px solid #eeeeed;
+    margin-bottom: 10px;
+}
+.detail-info-wrap>h3{
+    font-size: 18px;
+    color: #323333;
+    padding-bottom: 7px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.detail-info-wrap>p{
+    font-size: 13px;
+    color: #666666;
+    padding-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.detail-info-wrap>div>i{
+    font-size: 24px;
+    color: #e83b4f;
+    padding-right: 10px;
+}
+.detail-info-wrap>div>span{
+    font-size: 13px;
+    color: #666666;
+    text-decoration: line-through;
+}
+.detail-parameter-wrap{
+    background-color: #ffffff;
+    border-top: 1px solid #eeeeed;
+    border-bottom: 1px solid #eeeeed;
+    margin-bottom: 10px;
+    color: #323333;
+}
+.detail-parameter-wrap>div{
+    font-size: 14px;
+    padding: 10px;
+    height: 40px;
+    line-height: 20px;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+.detail-parameter-wrap>div:first-child{
+    border-bottom: 1px solid #eeeeed;
+}
+.detail-parameter-wrap>div>span{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.detail-parameter-wrap>div>span>em{
+    font-size: 12px;
+    color: #b3b3b3;
+    position: relative;
+    padding-left: 20px;
+    display: inline-block;
+}
+.detail-parameter-wrap>div>span>em::before{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ff3947;
+    top:7px;
+    left: 7px;
+}
+.detail-parameter-wrap>div>i{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("../images/icons.png") no-repeat center -1327px;
+}
+.detail-descript-wrap{
+    margin-bottom: 10px;
+}
+.detail-descript-wrap>img{
+    width: 100%;
+}
+.shop-cart-wrap{
+    position: fixed;
+    background-color: #ffffff;
+    border-top: 1px solid #eeeeed;
+    height: 51px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.shopcart-btn-wrap,.buy-btn-wrap{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.shopcart-btn-wrap{
+    border: 1px solid #333333;
+    color: #333333;
+    line-height: 28px;
+    display: inline-block;
+}
+.buy-btn-wrap{
+    background-color: #ff3947;
+    color: #ffffff;
+    line-height: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.shop-cart{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    text-align: center;
+}
+.shop-cart>a>div{
+    width: 18px;
+    height: 18px;
+    background: url("../images/shopcart.png") no-repeat center center;
+    background-size: cover;
+    margin-top: -2px;
+    position: relative;
+    margin: 0 auto;
+}
+.shop-cart>a>div>i{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: #e83b4f;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 10px;
+    position: absolute;
+    top: -2px;
+    right: -8px;
+}
+.shop-cart>a>p{
+    font-size: 10px;
+    color: #666666;
+}
+.product-parameter-wrap{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 51px;
+    background: rgba(0,0,0,0.5);
+}
+.product-parameter-inner{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+}
+.show-product-parameter-wrap{
+    border-bottom: 1px solid #eeeeed;
+    padding: 10px;
+}
+.display-product-wrap{
+    padding: 6px 0 10px 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+.display-product-img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.display-product-img>img{
+    width: 100%;
+}
+.display-product-name{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.display-product-name>h4{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #323333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.display-product-name>div>i{
+    font-size: 18px;
+    color: #e83b4f;
+    padding-right: 10px;
+}
+.display-product-name>div>span{
+    font-size: 13px;
+    color: #666666;
+    text-decoration: line-through;
+}
+.select-parameter-wrap{
+    padding-left: 10px;
+}
+.select-parameter-wrap>p{
+    font-size: 14px;
+    color:#333333;
+}
+.select-parameter-wrap>span{
+    margin-top: 8px;
+    font-size: 12px;
+    color:#333333;
+    border: 1px solid #666666;
+    border-radius: 3px;
+    text-align: center;
+    padding: 4px 10px;
+    display: inline-block;
+}
+.select-quantity-wrap{
+    padding: 20px 10px 20px 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+.select-quantity-wrap>p{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #333333;
+    line-height: 24px;
+}
+.select-quantity{
+    border: 1px solid #b3b3b3;
+    border-radius: 2px;
+    font-size: 0;
+}
+.select-quantity>span{
+    display: inline-block;
+    width: 24px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+}
+.select-quantity>span:nth-of-type(2){
+    width: 48px;
+    text-align: center;
+}
+.select-quantity>span:first-of-type{
+    border-right: 1px solid #b3b3b3;
+}
+.select-quantity>span:last-of-type{
+    border-left: 1px solid #b3b3b3;
+}
+.close-parameter-wrap{
+    height: 30px;
+}
+.close-parameter-btn{
+    float: right;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    margin-top: 3px;
+    background: url("../images/select.png") no-repeat;
+    background-size: cover;
+    background-position: center -138px;
+}

@@ -1,0 +1,57 @@
+/*底部导航目录*/
+.nav-wrap{
+  background-color: #ffffff;
+  padding: 5px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  border-top: 1px solid #dcdcdc;
+}
+.nav-wrap>li{
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+.nav-wrap>li a i{
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: url("../images/nav.png") no-repeat;
+  background-size: 90%;
+}
+.nav-wrap>li a p{
+  color:#cdcdcd;
+  font-size: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.nav-wrap>li.current a p{
+  color:#49a2fc;
+}
+
+.nav-wrap>li.home a i{
+  background-position: center -186px;
+}
+.nav-wrap>li.mall a i{
+  background-position: center -139px;
+}
+.nav-wrap>li.mall.current a i{
+  background-position: center -93px;
+}
+.nav-wrap>li.order a i{
+  background-position: center -47px;
+}
+.nav-wrap>li.order.current a i{
+  background-position: center 0;
+}
+.nav-wrap>li.my a i{
+  background-position: center -233px;
+}
+
